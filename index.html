@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherNow</title>
+</head>
+<body>
+    <h1 class="heading">WeatherNow</h1>
+
+    <div class="input-container">
+        <input id="city-input" type="text" placeholder="Enter city name">
+        <button id="search-button">Search</button>
+    </div>
+
+    <div class="result-container">
+        <h3 id="cityname">NAME</h3>
+        <h4 id="citytime">TIME</h4>
+        <h5 id="citytemp">TEMP</h5>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to right, #74ebd5, #ACB6E5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        color: #333;
+    }
+
+    .heading {
+        font-size: 48px;
+        margin-bottom: 40px;
+        color: #ffffff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    h3, h4, h5 {
+        margin: 10px 0;
+    }
+
+    .input-container {
+        background-color: white;
+        padding: 20px 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+        display: flex;
+        gap: 10px;
+    }
+
+    input[type="text"] {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 16px;
+        width: 200px;
+    }
+
+    button {
+        padding: 10px 16px;
+        background-color: #0077cc;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #005fa3;
+    }
+
+    .result-container {
+        background-color: white;
+        padding: 20px 30px;
+        border-radius: 12px;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 300px;
+    }
+</style>
