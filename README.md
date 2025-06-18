@@ -18,11 +18,4 @@ WeatherNow is a simple web application that allows users to check the current ti
 - JavaScript (with external `script.js`)
 - (Optional) Weather API like [OpenWeatherMap](https://openweathermap.org/api)
 
-## Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/weathernow.git
-cd weathernow
 
