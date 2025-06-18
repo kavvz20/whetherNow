@@ -16,6 +16,6 @@ WeatherNow is a simple web application that allows users to check the current ti
 - HTML5
 - CSS3
 - JavaScript (with external `script.js`)
-- (Optional) Weather API like [OpenWeatherMap](https://openweathermap.org/api)
+- Weather API like [OpenWeatherMap](https://openweathermap.org/api)
 
 
